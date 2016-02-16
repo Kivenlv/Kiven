@@ -8,6 +8,52 @@
 }
 
 
+
+/*mi-searchTop部分*/
+.mi-searchTopnav{
+    background: rgba(0,0,0,0.8);
+    transition: 0.8s;
+    position: fixed;
+    opacity: 0;
+    filter:alpha(opacity=0);     /* IE */
+    -moz-opacity:0;              /* 老版Mozilla */
+    -khtml-opacity:0;            /* 老版Safari */
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.mi-searchTop{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.mi-searchTop input{
+    border: none;
+}
+.mi-ts-ipt{
+    position: absolute;
+    top: 12px;
+    left: 350px;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+}
+.mi-ts-btn{
+    position: absolute;
+    top: 12px;
+    left: 850px;
+    width: 80px;
+    height: 40px;
+    border-radius:0 5px 5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #ff6700;
+}
+
+
+/*mi-searchTop部分结束*/
+
+
 /*header部分*/
 .mi-header{
     color: #b0b0b0;

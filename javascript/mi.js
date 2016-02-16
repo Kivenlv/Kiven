@@ -72,6 +72,26 @@ $(document).ready(function(){
 
 
 
+
+    //搜索框部分
+    var search = $(".mi-searchTopnav");
+    window.onscroll=function(){
+        var scrTop = document.body.scrollTop;
+        if(scrTop>200){
+            search.css("opacity" , "1");
+        }else{
+            search.css("opacity" , "0");
+        }
+    }
+
+
+
+
+
+
+
+
+
 });
 
 
