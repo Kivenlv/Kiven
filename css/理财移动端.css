@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+#ui_dream{
+    width: 100%;
+    min-height: 100%;
+    background-color: #efefef;
+}
+#title{
+    width:90%;
+    height: 3rem;
+    margin: 1rem auto;
+    background-color: #FFFFFF;
+    box-shadow:0 0 0.1rem 0.1rem darkgray;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+#title ul li{
+    cursor:pointer;
+    float: left;
+    line-height:3rem;
+    width: 19.7%;
+    text-align: center;
+    border-right: 0.1rem solid lightsteelblue;
+}
+#title ul .on{
+    color: #FFFFFF;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: royalblue;
+}
+#title ul .hide{
+    border-radius: 0.5rem 0 0.5rem 0;
+    border-right: none;
+}
+#nav{
+    width: 100%;
+    height: 14rem;
+    text-align: center;
+    background-image: url(../images/home.png);
+    background-repeat:no-repeat;
+    background-size:200px 200px;
+    background-position: center center;
+    position:relative;
+}
+#nav_fir{
+    width: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.nav_home{
+    left: 4rem;
+    top: 1rem;
+}
+.nav_home_fir{
+    width: 100%;
+    text-align: center;
+}
+.nav_cent_fir{
+    padding-top: 2rem;
+    color: #FFFFFF;
+}
+.nav_cent_sec{
+    font-size: 4rem;
+    padding-top: 2rem;
+    color: #FFFFFF;
+}
+.nav_cent_thr{
+    line-height: 3.2rem;
+    color: #FFFFFF;
+}
+.nav_cent p{
+    line-height: 5rem;
+}
+.nav_hongbao{
+    display: inline-block;
+    cursor:pointer;
+    vertical-align: top;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+}
+#nav_btn{
+    position: relative;
+    text-align: center;
+    height: 3rem;
+}
+#nav_btn span{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    filter:alpha(opacity=30);
+    opacity:0.3;
+}
+#nav_btn .active{
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+#lixi{
+    position: relative;
+    width: 100%;
+    height: 5rem;
+}
+.centerOne{
+    width: 85%;
+    height: 5rem;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    filter:alpha(opacity=0);
+    opacity:0;
+    overflow: hidden;
+    top:0;
+    position: absolute;
+    left: 1.7rem;
+}
+.centerMine{
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+.centerOne .center_fir{
+    float: left;
+    width: 49%;
+    height: 80%;
+    position: relative;
+    top: 0.5rem;
+    border-right: 0.1rem solid darkgrey;
+    line-height: 2rem;
+    text-align: center;
+}
+.centerOne .center_fir_p{
+    color: darkorange;
+}
+.centerOne .center_sec{
+    float: left;
+    width: 49%;
+    height: 80%;
+    position: relative;
+    top: 0.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.centerOne .center_sec_p{
+    color: darkorange;
+}
+#deposit{
+    cursor:pointer;
+    width: 90%;
+    background-color: darkorange;
+    height: 4rem;
+    margin: 1rem auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow:0 0 0.1rem  0.1rem darkgray;
+    position: relative;
+    overflow: hidden;
+}
+#deposit p{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 4rem;
+    position: absolute;
+    filter:alpha(opacity=0);
+    opacity:0;
+    top:0;
+    display: inline-block;
+    width: 100%;
+}
+#deposit .deposit_fir{
+    filter:alpha(opacity=100);
+    opacity:1;
+}
+#mine{
+    width: 90%;
+    height: 2rem;
+    margin: 1rem auto 0;
+    text-align: center;
+}
+#mine ul li{
+    cursor:pointer;
+    float: left;
+    width: 24%;
+    font-size: 1rem;
+    border-right: 0.1rem solid darkgray;
+}
+#mine ul .corol{
+    border-right: none;
+    color: darkorange;
+}
+#finance{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#finance p{
+    text-align: center;
+    color: #7d7d7d;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+

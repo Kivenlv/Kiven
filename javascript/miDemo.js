@@ -55,8 +55,6 @@ $(document).ready(function(){
 
 
 
-
-
     //无缝滚动部分
     //var omove = $(".mi-mov-box");
     var ocha = $(".mi-start-box");
@@ -71,16 +69,16 @@ $(document).ready(function(){
     autoPlay=setInterval(change,3000);
 
 
-
-
     //搜索框部分
     var search = $(".mi-searchTopnav");
     window.onscroll=function(){
         var scrTop = document.body.scrollTop;
         if(scrTop>200){
-            search.css("opacity" , "1");
+            search.css("opacity" , "1" , "top" , "0");
+            search.css("top" , "0");
         }else{
-            search.css("opacity" , "0");
+            search.css("opacity" , "0" , "top" , "-63");
+            search.css("top" , "-63");
         }
     }
 

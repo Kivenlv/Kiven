@@ -7,8 +7,6 @@
     font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;;
 }
 
-
-
 /*mi-searchTop部分*/
 .mi-searchTopnav{
     background: rgba(0,0,0,0.8);
@@ -18,7 +16,7 @@
     filter:alpha(opacity=0);     /* IE */
     -moz-opacity:0;              /* 老版Mozilla */
     -khtml-opacity:0;            /* 老版Safari */
-    top: 0;
+    top: -63px;
     width: 100%;
     z-index: 9999;
 }
@@ -49,8 +47,6 @@
     font-size: 16px;
     background-color: #ff6700;
 }
-
-
 /*mi-searchTop部分结束*/
 
 
