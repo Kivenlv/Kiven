@@ -54,7 +54,6 @@ $(document).ready(function(){
     time=setInterval(next, 1500);
 
 
-
     //无缝滚动部分
     //var omove = $(".mi-mov-box");
     var ocha = $(".mi-start-box");
@@ -74,13 +73,15 @@ $(document).ready(function(){
     window.onscroll=function(){
         var scrTop = document.body.scrollTop;
         if(scrTop>200){
-            search.css("opacity" , "1" , "top" , "0");
-            search.css("top" , "0");
+            search.css({"opacity" : "1" , "top" : "0"});
         }else{
-            search.css("opacity" , "0" , "top" , "-63");
-            search.css("top" , "-63");
+            search.css({"opacity" : "0" , "top" : "-63"});
         }
     }
+
+
+
+
 
 
 

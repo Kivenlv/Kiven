@@ -11,14 +11,15 @@
 .mi-searchTopnav{
     background: rgba(0,0,0,0.8);
     transition: 0.8s;
-    position: fixed;
     opacity: 0;
     filter:alpha(opacity=0);     /* IE */
     -moz-opacity:0;              /* 老版Mozilla */
     -khtml-opacity:0;            /* 老版Safari */
+    position: fixed;
     top: -63px;
     width: 100%;
     z-index: 9999;
+
 }
 .mi-searchTop{
     width: 1226px;
@@ -93,7 +94,6 @@
 .mi-title{
     width: 1226px;
     margin: 0 auto;
-    /*border: 1px solid #ff6700;*/
 }
 .mi-titleL{
     float: left;
@@ -155,7 +155,6 @@
     width: 1226px;
     margin: 0 auto;
     position: relative;
-    /*border: 1px solid #ff6700;*/
 }
 .mi-box-move{
     position: absolute;
@@ -212,18 +211,11 @@
     top: 0;
     width: 310px;
 }
-
-
-
-
-
-
 .mi-nav-mis>div{
     width: 300px;
     height: 76px;
     line-height: 76px;
     display: inline-block;
-    /*border: 1px solid #e0e0e0;*/
 }
 .mi-nav-mis div p{
     display: inline-block;
@@ -253,15 +245,11 @@
 }
 
 
-
-
-
 /*hot部分*/
 .mi-hot{
     width: 1226px;
     margin: 0 auto;
     margin-top: 10px;
-    /*border: 1px solid #ff6700;*/
 }
 .mi-hotL{
     width: 234px;
@@ -296,7 +284,6 @@
     position:relative;
     width:1226px;
     height: 345px;
-    /*border:1px solid red;*/
 }
 .mi-start-box{
     width: 2452px;
@@ -396,12 +383,6 @@
 }
 
 
-
-
-
-
-
-
 /*introduction介绍部分*/
 .mi-introduction{
     width: 1226px;
@@ -414,10 +395,8 @@
 }
 .mi-introductionTop ul li{
     float: left;
-    /*height: 100px;*/
     color: #757575;
     display: inline-block;
-    /*line-height: 100px;*/
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -454,9 +433,6 @@
 .mi-introductionBtm>div ul li:hover{
     color: #ff6700;
 }
-
-
-
 .mi-introductionBtm-box{
     position: absolute;
     right: 0;
@@ -481,14 +457,11 @@
 }
 
 
-
 /*footer部分*/
 .mi-footer{
     width: 1226px;
     margin: 0 auto;
 }
-
-
 .mi-footerL ul li{
     float: left;
     font-size: 12px;
@@ -517,7 +490,6 @@
 .mi-footerL ul li{
     display: inline-block;
 }
-
 .mi-footerL p{
      display: inline-block;
      font-size: 12px;
@@ -534,8 +506,6 @@
     margin-top: 37px;
     float: left;
 }
-
-
 .clos{
     border-right: none!important;
 }
