@@ -37,13 +37,13 @@ body{
     transform: rotate(360deg) scale(1.2);
 }
 .mission-link .icon{
-    background:url(images/mission.jpg) no-repeat center 0;
+    background:url(../images/mission.jpg) no-repeat center 0;
 }
 .play-link .icon{
-    background:url(images/play.jpg) no-repeat center 0;
+    background:url(../images/play.jpg) no-repeat center 0;
 }
 .touch-link .icon{
-    background:url(images/touch.jpg) no-repeat center 0;
+    background:url(../images/touch.jpg) no-repeat center 0;
 }
 .button{
     display: block;
@@ -56,7 +56,7 @@ body{
     font-weight: 900;
     text-align: center;
     color: #2DCB70;
-    background:url(images/allow.png) no-repeat 125px center;
+    background:url(../images/allow.png) no-repeat 125px center;
     position: relative;
     -moz-transition:ease 0.5s;
     -o-transition:ease 0.5s;

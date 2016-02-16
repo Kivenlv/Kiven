@@ -2,16 +2,18 @@
 
 $(document).ready(function(){
 
+    //轮播图部分
     var index = 0;
     var time ;
     var imgPic = $(".mi-box-move img");
     var imgBtn = $(".mi-box-move-btn span");
 
-
-    imgBtn.mouseover=(function(){
-        index = imgBtn.index(this);
+    imgBtn.hover(function(){
         clearInterval(time);
+        index = imgBtn.index(this);
         play();
+    },function(){
+        time=setInterval(next,1500);
     });
 
     imgPic.hover(function(){
@@ -27,17 +29,6 @@ $(document).ready(function(){
     $(".prev").click(function(){
         clearInterval(time);
         prev();
-    });
-
-    $(".next").hover(function(){
-        clearInterval(time);
-    },function(){
-        time=setInterval(next,1500);
-    });
-    $(".prev").hover(function(){
-        clearInterval(time);
-    },function(){
-        time=setInterval(next,1500);
     });
 
     function next(){
@@ -63,6 +54,9 @@ $(document).ready(function(){
     time=setInterval(next, 1500);
 
 
+
+
+
     //无缝滚动部分
     //var omove = $(".mi-mov-box");
     var ocha = $(".mi-start-box");
@@ -74,7 +68,7 @@ $(document).ready(function(){
         }
         ocha.animate({left:-(navIndex++)*1226});
     }
-    autoPlay=setInterval(change,5000);
+    autoPlay=setInterval(change,3000);
 
 
 
